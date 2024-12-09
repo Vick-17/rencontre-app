@@ -8,15 +8,14 @@
 }
 body {
   overflow-x: hidden;
-  background-color: black;
+  background-image: url("./assets/BackGroundMain.png");
+  height: 100vh;
+  z-index: 1;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.accueil_container {
-background-image: url("./assets/BackgroundCourtney.png");
-height: 100vh;
-filter: blur(8px) grayscale(50%);
-z-index: 1;
-}
 input:focus {
   outline: none;
 }
