@@ -2,9 +2,10 @@ import Header from "../Components/Header/Header";
 
 const Accueil = () => {
     return (
-        <div>
-            <Header />
-        </div>
+      <>
+        <Header />
+        <div className="accueil_container"></div>
+      </>
     );
 };
 
