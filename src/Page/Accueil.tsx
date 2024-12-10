@@ -1,6 +1,6 @@
 import Header from "../Components/Header/Header";
 import MainAccueil from "../Components/Accueil/MainAccueil";
-
+import Footer from "../Components/Footer/Footer";
 const Accueil = () => {
     return (
       <>
@@ -8,6 +8,7 @@ const Accueil = () => {
         <div className="accueil_container">
           <MainAccueil />
         </div>
+        <Footer />
       </>
     );
 };
