@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 8%;
+}
+
+.searchCox{
+color: #fff;
+font-size: 1.3rem;
+cursor: pointer;
+}
+
+.map {
+  width: 50%;
+}
